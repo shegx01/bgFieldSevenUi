@@ -75,20 +75,20 @@ body, * {
       color: white;
       font-size: smaller;
       font-weight: 300;
-      padding-top: 8px;
+      padding-top: 10px;
       &--emphasis {
         font-weight: 700;
       }
     }
     &__nounce{
-      padding-top: 15px;
+      padding-top: 17px;
       text-transform: uppercase;
       color: white;
       font-weight: 800;
       font-size: large;
     }
     &__prev-wrapper {
-      padding-top: 10px;
+      padding-top: 17px;
       width: 70%;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -115,7 +115,7 @@ body, * {
         justify-content: center;
       }
       &--text {
-        padding-top: 10px;
+        padding-top: 8px;
         max-width: 120px;
         text-align: center;
       }
@@ -151,8 +151,8 @@ body, * {
   }
 &__pic {
   position: absolute;
-  top: 45px;
-  right: -13px;
+  top: 50px;
+  right: -15px;
   width: 30%;
   z-index: 1;
   min-width: 338px;
